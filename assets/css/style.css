@@ -123,7 +123,15 @@ li a {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    line-height: 10px;
+}
 
+.one {
+    border-right: 1px groove #e9e7e7;
+}
+
+.two {
+    border-right: 1px groove #e9e7e7;
 }
 
 .main {
