@@ -19,6 +19,17 @@ body {
     background-color: white;
 }
 
+.contact {
+    display:block;
+    height: 600px;
+    width: 960px;
+    margin-left: 220px;
+    margin-right: 220px;
+    border: 1px solid #dddddd;
+    margin-top: 40px;
+    background-color: white;
+}
+
 .menu {
     float: right;
     position: relative;
@@ -36,6 +47,49 @@ body {
     color: white;
     text-align: center;
     padding-top: 15px;
+}
+
+.name {
+    padding-left: 30px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.email {
+    padding-left: 30px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.message {
+    padding-left: 30px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.submit {
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+input {
+    width: 896px;
+    height: 25px;
+    margin-top: 8px;
+}
+
+.message input {
+    height: 250px;
+    margin-top: 8px;
+}
+
+.submit input {
+    width: 65px;
+    background-color: #4aaaa5;
+    color: white;
 }
 
 section {
@@ -122,6 +176,7 @@ footer {
     text-align: center;
     position: relative;
     top: 136px;
+    line-height: 80px;
     }
 
 .group:before,
